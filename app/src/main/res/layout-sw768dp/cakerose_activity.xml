@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.daimajia.slider.demo.MainActivity"
+        tools:ignore="UselessParent,WebViewLayout"
+        android:background="#fbf8f8">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            custom:pager_animation="Accordion"
+            custom:auto_cycle="true"
+            custom:indicator_visibility="visible"
+            custom:pager_animation_span="1100"
+            android:layout_height="350dp"/>
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            custom:selected_color="#0095BF"
+            custom:unselected_color="#55333333"
+            custom:selected_drawable="@drawable/bird"
+            custom:shape="oval"
+            custom:selected_padding_left="5dp"
+            custom:selected_padding_right="5dp"
+            custom:unselected_padding_left="5dp"
+            custom:unselected_padding_right="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            custom:selected_width="6dp"
+            custom:selected_height="6dp"
+            custom:unselected_width="6dp"
+            custom:unselected_height="6dp"
+            android:layout_marginBottom="20dp"/>
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator2"
+            style="@style/AndroidImageSlider_Corner_Oval_Orange"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"/>
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:id="@+id/webView22222"
+            android:layout_below="@+id/slider"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RtlCompat" />
+
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/fragment3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/webView22222"
+            tools:ignore="RtlCompat" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignBottom="@+id/fragment3"
+            android:layout_alignParentStart="true"
+            tools:ignore="RtlCompat">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:background="@android:drawable/screen_background_dark_transparent"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="นำเส้นทาง"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/textColorPrimary"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:id="@+id/textViewcakerose"
+                    android:layout_alignBottom="@+id/fragment"
+                    android:layout_alignParentStart="true"
+                    android:padding="10dp"
+                    android:textSize="16dp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam,SpUsage,UnusedAttribute" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</ScrollView>

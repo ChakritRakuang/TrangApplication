@@ -1,0 +1,12 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/about"
+        yourapp:showAsAction="ifRoom"
+        android:icon="@drawable/homeicon"
+        tools:ignore="MenuTitle" />
+
+</menu>

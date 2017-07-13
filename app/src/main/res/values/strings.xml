@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Trang</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="InformationTrangActivity">ข้อมูลจังหวัดตรัง</string>
+    <string name="includeinformation_trang_activity">มาเที่ยวตรัง ต้องห้ามพลาด</string>
+    <string name="AttractionsTabsTrangActivity">สถานที่ท่องเที่ยว</string>
+    <string name="SouvenirsTabsTrangActivity">สินค้าและของฝาก</string>
+    <string name="AboutUsActivity">เกี่ยวกับเรา</string>
+
+    <string name="BanNaiHuaChuangActivity">ถ้ำมรกต เกาะมุก</string>
+    <string name="Attrac2">อุทยานแห่งชาติหาดเจ้าไหม</string>
+    <string name="Attrac3">เกาะม้า  เกาะเชือก</string>
+    <string name="Attrac4">เกาะกระดาน</string>
+    <string name="Attrac5">ถ้ำเลเขากอบ</string>
+    <string name="Attrac6">ตึกเก่าเมืองตรัง</string>
+    <string name="Attrac7">พิพิธภัณฑ์พระยารัษฎานุประดิษฐ์มหิศรภักดี</string>
+    <string name="Attrac8">ต้นยางพาราต้นแรกของประเทศไทย</string>
+    <string name="Attrac9">โบสต์คริสต์</string>
+    <string name="Attrac10">สถานีรถไฟกันตัง สุดทางรถไฟฟ้าอันดามัน</string>
+
+    <string name="phathonamuensiActivity">ตรังหมูย่าง</string>
+    <string name="sou2">ก๋งลุ้ง (ห้วยยอด)</string>
+    <string name="sou3">ขนมเค้กตรากุหลาบ</string>
+    <string name="sou4">ขนมเค้กรสเลิศ</string>
+    <string name="sou5">ผ้าทอนาหมื่นศรี</string>
+    <string name="title_activity_maps_">Map</string>
+
+    <string name="lorem_ipsum">เครดิต</string>
+
+</resources>

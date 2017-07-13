@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="flContainer" type="id">flContainer</item>
+    <item name="textView1" type="id">textView1</item>
+    <item name="viewText" type="id">viewText</item>
+    <item name="view" type="id">view</item>
+    <item name="open_close_time_image_ban_nai_chuan1" type="id">
+        open_close_time_image_ban_naichuan1
+    </item>
+    <item name="place_name_ban_nai_chuan1_open_close_time" type="id">
+        place_name_ban_nai_chuan1_open_close_time
+    </item>
+    <item name="place_details_ban_nai_chuan1_day" type="id">place_details_ban_nai_chuan1_day</item>
+    <item name="address_image_ban_nai_chuan1" type="id">address_image_ban_nai_chuan1</item>
+    <item name="place_name_ban_nai_chuan1_address" type="id">place_name_ban_nai_chuan1_address
+    </item>
+    <item name="place_details_ban_nai_chuan1_chuang_morasum" type="id">
+        place_details_ban_nai_chuan1_chuang_morasum
+    </item>
+    <item name="place_details_ban_nai_chuan1_address_detail" type="id">
+        place_details_ban_nai_chuan1_address_details
+    </item>
+    <item name="phone_image_ban_nai_chuan1" type="id">phone_image_ban_nai_chuan1</item>
+    <item name="place_name_ban_nai_chuan1_phone" type="id">place_name_ban_nai_chuan1_phone</item>
+    <item name="place_details_ban_nai_chuan1_phone_detail" type="id">
+        place_details_ban_nai_chuan1_phone_detail
+    </item>
+    <item name="chuang_morasum_image_ban_nai_chuan1" type="id">chuang_morasum_image_ban_nai_chuan1
+    </item>
+    <item name="place_name_ban_nai_chuan1_chuang_morasum" type="id">
+        place_name_ban_nai_chuang_morasum
+    </item>
+    <item name="open_close_time_pha_tho_na_muen_si" type="id">open_close_time_pha_tho_na_muen_si
+    </item>
+    <item name="place_details_pha_tho_na_muen_si_day" type="id">
+        place_details_pha_tho_na_muen_si_day
+    </item>
+</resources>

@@ -1,0 +1,250 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: InformationTrang</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">chakritrakhuang.trangapp.se.science.bu.bomb</a> ]
+</div>
+
+<h1>Coverage Summary for Class: InformationTrang (chakritrakhuang.trangapp.se.science.bu.bomb)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">InformationTrang</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 21)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">InformationTrang$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 9)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 24)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package chakritrakhuang.trangapp.se.science.bu.bomb;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.app.Activity;
+<i>4</i>&nbsp;import android.os.Bundle;
+<i>5</i>&nbsp;import android.support.v4.app.Fragment;
+<i>6</i>&nbsp;import android.view.LayoutInflater;
+<i>7</i>&nbsp;import android.view.View;
+<i>8</i>&nbsp;import android.view.ViewGroup;
+<i>9</i>&nbsp;import android.webkit.WebSettings;
+<i>10</i>&nbsp;import android.webkit.WebView;
+<i>11</i>&nbsp;import android.webkit.WebViewClient;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;@SuppressWarnings(&quot;ALL&quot;)
+<b class="nc"><i>14</i>&nbsp;public class InformationTrang extends Fragment {</b>
+<i>15</i>&nbsp;
+<i>16</i>&nbsp;    WebView mWebView;
+<b class="nc"><i>17</i>&nbsp;    String htmlstr1= &quot;&lt;body&gt;\n&quot; +</b>
+<i>18</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: center;\&quot;&gt;&lt;img alt=\&quot;จังหวัดตรัง\&quot; src=\&quot;http://www.sawadee.co.th/thai/trang/images/02welcome_head_th.jpg\&quot; /&gt;&lt;/p&gt;\n&quot; +
+<i>19</i>&nbsp;            &quot;\n&quot; +
+<i>20</i>&nbsp;            &quot;&lt;table align=\&quot;center\&quot; border=\&quot;0\&quot; cellpadding=\&quot;0\&quot; cellspacing=\&quot;0\&quot; style=\&quot;box-sizing: border-box; color: rgb(31, 90, 132); font-family: Tahoma; font-size: 15px; background-color: rgb(255, 255, 255);\&quot; width=\&quot;550\&quot;&gt;\n&quot; +
+<i>21</i>&nbsp;            &quot;\t&lt;tbody style=\&quot;box-sizing: border-box;\&quot;&gt;\n&quot; +
+<i>22</i>&nbsp;            &quot;\t\t&lt;tr style=\&quot;box-sizing: border-box;\&quot;&gt;\n&quot; +
+<i>23</i>&nbsp;            &quot;\t\t\t&lt;td colspan=\&quot;4\&quot; nowrap=\&quot;nowrap\&quot; style=\&quot;box-sizing: border-box; font-stretch: normal; text-align: center;\&quot; width=\&quot;15\&quot;&gt;&amp;nbsp;&lt;/td&gt;\n&quot; +
+<i>24</i>&nbsp;            &quot;\t\t\t&lt;td colspan=\&quot;4\&quot; nowrap=\&quot;nowrap\&quot; style=\&quot;box-sizing: border-box; font-stretch: normal; text-align: center;\&quot; width=\&quot;100%\&quot;&gt;&lt;img align=\&quot;left\&quot; alt=\&quot;\&quot; height=\&quot;365\&quot; src=\&quot;http://en.inlovesatuntrang.com/images/pulldown_1331388062/700%20en%20trang%20city%207%281%29.jpg\&quot; style=\&quot;box-sizing: border-box; max-width: 100%; height: auto;\&quot; width=\&quot;650\&quot; /&gt;\u200B&lt;/td&gt;\n&quot; +
+<i>25</i>&nbsp;            &quot;\t\t&lt;/tr&gt;\n&quot; +
+<i>26</i>&nbsp;            &quot;\t&lt;/tbody&gt;\n&quot; +
+<i>27</i>&nbsp;            &quot;&lt;/table&gt;\n&quot; +
+<i>28</i>&nbsp;            &quot;\n&quot; +
+<i>29</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>30</i>&nbsp;            &quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:22px;\&quot;&gt;ตัวเมืองตรังไม่คึกคักมาก ในความเรียบง่ายนั้นมีเสน่ห์ ชวนให้หลงใหลและค้นหา เมืองตรังเป็นเมืองเก่าแก่แต่เดิมเป็นตำบลทับเที่ยงและได้ถูกยกฐานะเป็นเทศบาลนครตรัง ตั้งแต่ปี พ.ศ.2542 เป็นต้นมาเสน่ห์เมืองเก่ายังคงมีให้เห็นได้จากตึกสไตล์ชิโนโปรตุกิส ซึ่งเป็นสถาปัตยกรรมผสมผสานศิลปะแนวยุโรปและจีน ยังคงความสวยคลาสสิค เพราะอารยธรรมตะวันตกที่เดินทางเข้ามาพร้อมกับเส้นทางรถไฟสายกรุงเทพ -ทับเที่ยง - กันตัง ทำให้ทับเที่ยงในยุคนั้นและเป็นศูนย์กลางการค้าและการคมนาคมในแถบชายฝั่งทะเล เมื่อแดดร่มลมตก ลองไปเดินหย่อนใจตามถนนราชดำเนิน ถนนพระรามหก ตรอกซอยตลอดสายจะเป็นร้านค้า อาคารพาณิชย์เก่าแก่ ทั้งที่เป็นตึกหรืออาคารไม้ &amp;nbsp;ซึ่งล้วนมีเรื่องราวมากมาย ชวนให้เข้าไปค้นหา&lt;/span&gt;&lt;span style=\&quot;font-size:16.0pt;font-family:&amp;quot;Angsana New&amp;quot;,&amp;quot;serif&amp;quot;;\n&quot; +
+<i>31</i>&nbsp;            &quot;color:#222222\&quot;&gt;&lt;span lang=\&quot;TH\&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>32</i>&nbsp;            &quot;\n&quot; +
+<i>33</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>34</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: justify;\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;img alt=\&quot;เกาะกระดาน\&quot; class=\&quot;trang-imgright\&quot; height=\&quot;150\&quot; src=\&quot;http://www.cheerhotel.net/wp-content/uploads/2015/04/act-%E0%B8%AB%E0%B8%AD%E0%B8%99%E0%B8%B2%E0%B8%AC%E0%B8%B4%E0%B8%81%E0%B8%B2-%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87.jpg\&quot; style=\&quot;border-style: none; border-width: 0px; padding: 5px 0px 5px 15px; float: right; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13.3333px;\&quot; width=\&quot;200\&quot; wieght=\&quot;200\&quot; /&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>35</i>&nbsp;            &quot;\n&quot; +
+<i>36</i>&nbsp;            &quot;&lt;p style=\&quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;strong&gt;หอนาฬิกา ประจำจังหวัดตรัง&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>37</i>&nbsp;            &quot;\n&quot; +
+<i>38</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>39</i>&nbsp;            &quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:22px;\&quot;&gt;สถาปัตยกรรมที่สุดคลาสสิคเป็นเอกลักษณ์ที่โดดเด่นตั้งตระหง่านอยู่กลางสี่แยกศาลากลางจังหวัดสร้างขึ้นตั้งแต่ปี พ.ศ. 2504 มีการปรับเปลี่ยนไปบ้างแต่สุดท้ายก็กลับมาคงรูปลักษณ์แบบดั้งเดิมเป็นที่ตั้งของหอกระจายข่าวของเทศบาลเมืองตรัง&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>40</i>&nbsp;            &quot;\n&quot; +
+<i>41</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>42</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: justify;\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;img alt=\&quot;เกาะกระดาน\&quot; class=\&quot;trang-imgright\&quot; height=\&quot;150\&quot; src=\&quot;http://topicstock.pantip.com/library/topicstock/2012/04/K12031560/K12031560-0.jpg\&quot; style=\&quot;border-style: none; border-width: 0px; padding: 5px 0px 5px 15px; float: right; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13.3333px;\&quot; width=\&quot;200\&quot; wieght=\&quot;200\&quot; /&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>43</i>&nbsp;            &quot;\n&quot; +
+<i>44</i>&nbsp;            &quot;&lt;p style=\&quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;strong&gt;ศาลเจ้าท่ามกงเยี่ย&lt;/strong&gt;&lt;/span&gt;&lt;span style=\&quot;font-size:16.0pt;font-family:&amp;quot;Angsana New&amp;quot;,&amp;quot;serif&amp;quot;;color:#222222\&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>45</i>&nbsp;            &quot;\n&quot; +
+<i>46</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>47</i>&nbsp;            &quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:22px;\&quot;&gt;&lt;span style=\&quot;text-align: justify; text-indent: 48px; background-color: rgb(255, 255, 255);\&quot;&gt;ศาลเจ้าท่ามกงเยี่ยเป็นศาลเจ้าแห่งศรัทธาและศักดิ์สิทธิ์ของชาวตรัง ที่อยุ่ที่ถนนเพลินพิทักษ์ ชาวตรังต่างเคารพและนับถือองค์ท่ามกงเยี่ย เทพผู้สูงส่งได้ถูกอัญเชิญจากเมืองจีนมาประทับทรงครั้งแรกและสถิตที่ศาลเจ้า แห่งนี้ ตั้งแต่ปี พ.ศ. 2490 เพื่อเป็นสิริมงคลแก่ชีวิต &amp;nbsp;นักท่องเที่ยวต่างแวะไปสักการะขอพรสิ่งศักดิ์สิทธิ์จากท่าน &amp;nbsp;มีความเลื่องลือถึงความศักดิ์สิทธิ์ &amp;nbsp;ซึ่งคนที่บูชาขอความช่วยเหลือใดๆ มักประสบความสำเร็จ โดยเฉพาะเรื่องการบนบานขอบุตรจากพระท่ามกงเยี่ยแล้วจะได้สมประสงค์&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>48</i>&nbsp;            &quot;\n&quot; +
+<i>49</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>50</i>&nbsp;            &quot;background:white\&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +
+<i>51</i>&nbsp;            &quot;\n&quot; +
+<i>52</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>53</i>&nbsp;            &quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;span style=\&quot;font-family: &#39;Angsana New&#39;, serif; color: rgb(34, 34, 34);\&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>54</i>&nbsp;            &quot;\n&quot; +
+<i>55</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>56</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: justify;\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;img alt=\&quot;เกาะกระดาน\&quot; class=\&quot;trang-imgright\&quot; height=\&quot;150\&quot; src=\&quot;http://www.cheerhotel.net/wp-content/uploads/2015/04/act-%E0%B8%A3%E0%B8%96%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%81%E0%B8%9A-%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87.jpg\&quot; style=\&quot;border-style: none; border-width: 0px; padding: 5px 0px 5px 15px; float: right; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13.3333px;\&quot; width=\&quot;200\&quot; wieght=\&quot;200\&quot; /&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>57</i>&nbsp;            &quot;\n&quot; +
+<i>58</i>&nbsp;            &quot;&lt;p style=\&quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;strong&gt;รถตุ๊กตุ๊กกบ &amp;nbsp;พระเอกคู่เมืองตรัง&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>59</i>&nbsp;            &quot;\n&quot; +
+<i>60</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>61</i>&nbsp;            &quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:22px;\&quot;&gt;นั่งรถตุ๊กตุ๊กกบเหมือนมาไม่ถึงเมืองตรังไปถ่ายภาพกันได้ที่แถวสถานีรถไฟตรังหรือแถวๆหน้าโรงแรมซึ่งจะเป็นจุดรวมตัวของเหล่ารถตุ๊กตุ๊กกบ รถตุ๊กตุ๊กหัวกบรุ่นดั้งเดิม นำเข้ามาจากประเทศญี่ปุ่น ตั้งแต่ปี พ.ศ. 2502 รูปแบบรถต้นฉบับดั้งเดิม เป็นรถกระบะสามล้อขนาดเล็ก ไม่มีหลังคาครอบ และมีการปรับแต่งเป็นรถโดยสารไว้บรรทุกของและเป็นรถโดยสาร มีความผูกพันกับคนตรังมาตลอด กว่าปี &amp;nbsp;50 รถตุ๊กตุ๊กคือพระเอกคนเก่งของเมืองตรัง จะมีภารกิจมากมายตั้งแต่เช้ามืดฟ้ายังไม่สว่างรถตุ๊กตุ๊กกบนี้จะทำหน้าที่บริการรับส่งแม่ค้าขนสินค้าไปขายที่ตลาดเช้าบ้างก็พาเหล่านักกรีดยางพาราไปส่งที่สวนในช่วงเกือบสว่าง พอสายสัก 7-8 โมงเช้า รถตุ๊กตุ๊กกบก็จะวิ่งรับส่งนักเรียนไปโรงเรียน ส่งคนไปทำงานพอสายๆ ถึงจะได้เวลาสภากาแฟ เจ้าของรถตุ๊กตุ๊กกบ ก็มานั่งจิบชากาแฟ คู่กับหมูย่างเมืองตรัง ปัจจุบันรถตุ๊กตุ๊กกบกว่า 100 คันยังคงให้บริการคนท้องถิ่น&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>62</i>&nbsp;            &quot;\n&quot; +
+<i>63</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>64</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: justify;\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;img alt=\&quot;เกาะกระดาน\&quot; class=\&quot;trang-imgright\&quot; height=\&quot;150\&quot; src=\&quot;http://www.cheerhotel.net/wp-content/uploads/2015/04/act-%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99-%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87.jpg\&quot; style=\&quot;border-style: none; border-width: 0px; padding: 5px 0px 5px 15px; float: right; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13.3333px;\&quot; width=\&quot;200\&quot; wieght=\&quot;200\&quot; /&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>65</i>&nbsp;            &quot;\n&quot; +
+<i>66</i>&nbsp;            &quot;&lt;p style=\&quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;strong&gt;ถนนคนเดิน &amp;nbsp;สถานีรถไฟตรัง&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>67</i>&nbsp;            &quot;\n&quot; +
+<i>68</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>69</i>&nbsp;            &quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:22px;\&quot;&gt;สถานีรถไฟตรัง เป็นสถานีเก่าแก่ เป็นศูนย์กลางชุมชนเข้าออกของผู้คนมากมายในอดีตของวันศุกร์ เสาร์ อาทิตย์ ที่บริเวณลานด้านหน้าของสถานีรถไฟตรัง จัดเป็นถนนคนเดินชวนให้นักท่องเที่ยวไปสัมผัสสีสันยามค่ำของตัวเมือง เดินเลือกชิมขนมพื้นบ้าน อาหารพื้นเมือง สินค้าศิลปะหัตถกรรม งานฝีมือของคนท้องถิ่นหรือชมนักดนตรีที่มาร่วมบรรเลงแสดงดนตรีเปิดหมวกเพื่อสร้างบรรยากาศครึกครื้นให้กับถนนคนเดิน &amp;nbsp;&lt;span style=\&quot;font-family: &#39;Angsana New&#39;, serif; color: rgb(34, 34, 34);\&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>70</i>&nbsp;            &quot;\n&quot; +
+<i>71</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>72</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: justify;\&quot;&gt;&lt;span style=\&quot;font-size:26px;\&quot;&gt;&lt;img alt=\&quot;เกาะกระดาน\&quot; class=\&quot;trang-imgright\&quot; height=\&quot;150\&quot; src=\&quot;http://www.cheerhotel.net/wp-content/uploads/2015/06/act-%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%A9%E0%B8%8E%E0%B8%B2%E0%B8%99%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B9%8C-%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%B0%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87.jpg\&quot; style=\&quot;border-style: none; border-width: 0px; padding: 5px 0px 5px 15px; float: right; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13.3333px;\&quot; width=\&quot;200\&quot; wieght=\&quot;200\&quot; /&gt;&lt;strong&gt;อนุสาวรีย์พระยารัษฎานุประดิษฐ์&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>73</i>&nbsp;            &quot;\n&quot; +
+<i>74</i>&nbsp;            &quot;&lt;p style=\&quot;text-align:justify;text-justify:inter-cluster;text-indent:.5in;\n&quot; +
+<i>75</i>&nbsp;            &quot;background:white\&quot;&gt;&lt;span style=\&quot;font-size:22px;\&quot;&gt;พระยารัษฎานุประดิษฐ์ (คอซิมบี้ ณ ระนอง) ราษฎรและข้าราชการ จังหวัดตรังได้สละทรัพย์สมทบสร้างอนุสาวรีย์พระยารัษฎานุประดิษฐ์มหิศรภักดีขึ้นที่ตำบลทับเที่ยงอำเภอเมืองตรัง จังหวัดตรัง ในวันที่ 10 เมษายน ของทุก ๆ ปีซึ่งเรียกกันว่า &amp;quot;วันพระยารัษฎานุประดิษฐ์&amp;quot;จะมีการวางพวงมาลาที่อนุสาวรีย์ ผลงานของพระยารัษฎานุประดิษฐ์ฯ นับได้ว่าเป็นเลิศ ท่านได้รับการยกย่องทั้งในหมู่ชาวต่างชาติ&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>76</i>&nbsp;            &quot;\n&quot; +
+<i>77</i>&nbsp;            &quot;&lt;hr /&gt;&lt;/body&gt;&quot;;
+<i>78</i>&nbsp;
+<i>79</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>80</i>&nbsp;
+<i>81</i>&nbsp;    @Override
+<i>82</i>&nbsp;    public void onCreate(Bundle savedInstanceState)
+<i>83</i>&nbsp;    {
+<b class="nc"><i>84</i>&nbsp;        super.onCreate(savedInstanceState);</b>
+<i>85</i>&nbsp;    }
+<i>86</i>&nbsp;
+<i>87</i>&nbsp;    @Override
+<i>88</i>&nbsp;    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+<b class="nc"><i>89</i>&nbsp;        View myFragmentView = inflater.inflate(R.layout.pagetwo_fragmentinformationtrang, container, false);</b>
+<i>90</i>&nbsp;
+<b class="nc"><i>91</i>&nbsp;        mWebView = (WebView) myFragmentView.findViewById(R.id.webView3);</b>
+<b class="nc"><i>92</i>&nbsp;        mWebView.setWebViewClient(new WebViewClient() {</b>
+<i>93</i>&nbsp;
+<i>94</i>&nbsp;            @Override
+<i>95</i>&nbsp;            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+<i>96</i>&nbsp;                // TODO Auto-generated method stub
+<b class="nc"><i>97</i>&nbsp;                view.loadUrl(url);</b>
+<b class="nc"><i>98</i>&nbsp;                return true;</b>
+<i>99</i>&nbsp;            }
+<i>100</i>&nbsp;        });
+<b class="nc"><i>101</i>&nbsp;        String head1 = &quot;&lt;head&gt;&lt;style&gt;@font-face {font-family: &#39;arial&#39;;src: url(&#39;file:///android_asset/fonts/angsa.ttf&#39;);}body {font-family: &#39;verdana&#39;;}&lt;/style&gt;&lt;/head&gt;&quot;;</b>
+<b class="nc"><i>102</i>&nbsp;        String text = &quot;&lt;html&gt;&quot; + head1</b>
+<i>103</i>&nbsp;                + &quot;&lt;body style=\&quot;font-family: arial\&quot;&gt;&quot; + htmlstr1
+<i>104</i>&nbsp;                + &quot;&lt;/body&gt;&lt;/html&gt;&quot;;
+<i>105</i>&nbsp;
+<b class="nc"><i>106</i>&nbsp;        mWebView.getSettings().setJavaScriptEnabled(true);</b>
+<b class="nc"><i>107</i>&nbsp;        mWebView.setWebViewClient(new WebViewClient());</b>
+<b class="nc"><i>108</i>&nbsp;        WebSettings webSettings = mWebView.getSettings();</b>
+<b class="nc"><i>109</i>&nbsp;        webSettings.setJavaScriptEnabled(true);</b>
+<b class="nc"><i>110</i>&nbsp;        webSettings.setDomStorageEnabled(true);</b>
+<b class="nc"><i>111</i>&nbsp;        mWebView.getSettings().setJavaScriptEnabled(true);</b>
+<b class="nc"><i>112</i>&nbsp;        mWebView.getSettings().setDomStorageEnabled(true);</b>
+<b class="nc"><i>113</i>&nbsp;        mWebView.loadDataWithBaseURL(&quot;&quot;, text, &quot;text4/html&quot;, &quot;utf-8&quot;, &quot;&quot;);</b>
+<i>114</i>&nbsp;
+<b class="nc"><i>115</i>&nbsp;        return myFragmentView;</b>
+<i>116</i>&nbsp;    }
+<i>117</i>&nbsp;
+<i>118</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>119</i>&nbsp;    @Override
+<i>120</i>&nbsp;    public void onActivityCreated(Bundle savedInstanceState) {
+<b class="nc"><i>121</i>&nbsp;        super.onActivityCreated(savedInstanceState);</b>
+<i>122</i>&nbsp;    }
+<i>123</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>124</i>&nbsp;    @Override
+<i>125</i>&nbsp;    public void onAttach(Activity activity)
+<i>126</i>&nbsp;    {
+<b class="nc"><i>127</i>&nbsp;        super.onAttach(activity);</b>
+<i>128</i>&nbsp;    }
+<i>129</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>130</i>&nbsp;    @Override
+<i>131</i>&nbsp;    public void onStart()
+<i>132</i>&nbsp;    {
+<b class="nc"><i>133</i>&nbsp;        super.onStart();</b>
+<i>134</i>&nbsp;    }
+<i>135</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>136</i>&nbsp;    @Override
+<i>137</i>&nbsp;    public void onResume()
+<i>138</i>&nbsp;    {
+<b class="nc"><i>139</i>&nbsp;        super.onResume();</b>
+<i>140</i>&nbsp;    }
+<i>141</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-03-21 10:19</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,267 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: atttaction7</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">chakritrakhuang.trangapp.se.science.bu.bomb</a> ]
+</div>
+
+<h1>Coverage Summary for Class: atttaction7 (chakritrakhuang.trangapp.se.science.bu.bomb)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">atttaction7</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 41)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">atttaction7$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">atttaction7$2</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 5)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 49)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package chakritrakhuang.trangapp.se.science.bu.bomb;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.content.Intent;
+<i>4</i>&nbsp;import android.net.Uri;
+<i>5</i>&nbsp;import android.os.Bundle;
+<i>6</i>&nbsp;import android.support.v7.app.AppCompatActivity;
+<i>7</i>&nbsp;import android.util.Log;
+<i>8</i>&nbsp;import android.view.View;
+<i>9</i>&nbsp;import android.webkit.WebView;
+<i>10</i>&nbsp;import android.webkit.WebViewClient;
+<i>11</i>&nbsp;import android.widget.Toast;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;import com.daimajia.slider.library.Animations.DescriptionAnimation;
+<i>14</i>&nbsp;import com.daimajia.slider.library.SliderLayout;
+<i>15</i>&nbsp;import com.daimajia.slider.library.SliderTypes.BaseSliderView;
+<i>16</i>&nbsp;import com.daimajia.slider.library.SliderTypes.TextSliderView;
+<i>17</i>&nbsp;import com.daimajia.slider.library.Tricks.ViewPagerEx;
+<i>18</i>&nbsp;import com.google.android.gms.maps.CameraUpdateFactory;
+<i>19</i>&nbsp;import com.google.android.gms.maps.GoogleMap;
+<i>20</i>&nbsp;import com.google.android.gms.maps.MapFragment;
+<i>21</i>&nbsp;import com.google.android.gms.maps.OnMapReadyCallback;
+<i>22</i>&nbsp;import com.google.android.gms.maps.model.LatLng;
+<i>23</i>&nbsp;import com.google.android.gms.maps.model.MarkerOptions;
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;import java.util.HashMap;
+<i>26</i>&nbsp;
+<b class="nc"><i>27</i>&nbsp;public class atttaction7 extends AppCompatActivity implements OnMapReadyCallback, BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {</b>
+<i>28</i>&nbsp;    private SliderLayout mDemoSlider;
+<i>29</i>&nbsp;    WebView mWebView;
+<i>30</i>&nbsp;
+<b class="nc"><i>31</i>&nbsp;    String htmlstr1 = &quot;&lt;p style=\&quot;text-align: center;\&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +</b>
+<i>32</i>&nbsp;            &quot;\n&quot; +
+<i>33</i>&nbsp;            &quot;&lt;p&gt;&lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;ข้อมูลทั่วไป :&lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; ตั้งอยู่ถนนหน้าค่าย อยู่ห่างจากเทศบาลกันตังประมาณ 200 เมตร เป็นที่ตั้ง ของสถานที่ประวัติศาสตร์ที่สำคัญแห่งหนึ่งของเมืองตรัง&lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; &amp;ldquo;จวนเก่าเจ้าเมืองตรัง&amp;rdquo;&lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; &lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;บ้านพักอดีตเจ้าเมืองตรัง &amp;quot;พระยารัษฎานุประดิษฐ์มหิศรภักดี&lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;&amp;quot; เป็นเรือนไม้ 2 ชั้น มีรูปปั้นหุ่นขี้ผึ้งและเครื่องมือเครื่องใช้ในชีวิตประจำวันของท่านอย่างครบถ้วนโดยทายาทเป็นผู้ดูแลชาวกันตังและเทศบาลเมืองกันตังเห็นว่าบ้านหลังนี้คือหลักฐานสำคัญทางประวัติศาสตร์ควรรักษาไว้คู่เมืองตรังจึงคิดจัดทำเป็นพิพิธภัณฑ์แสดงชีวิต และผลงานของพระยารัษฎาฯให้ชาวตรังได้ศึกษาโดยได้ขออนุญาตใช้เป็นอนุสรณ์สถานของพระยารัษฎาฯ โดย ตาโต๊ะเบียนจง อนุญาตให้จังหวัดตรังใช้บ้านหลังนี้จัดทำเป็นพิพิธภัณฑ์ เมื่อ 10 กันยายน 2535 ใช้นามว่า &lt;strong&gt;พิพิธภัณฑ์พระยารัษฎานุประดิษฐ์ มหิศรภักดี (คอซิมบี๊ ณ ระนอง)&lt;/strong&gt;&lt;/p&gt;\n&quot; +
+<i>34</i>&nbsp;            &quot;\n&quot; +
+<i>35</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>36</i>&nbsp;            &quot;&lt;p&gt;&lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;การเดินทาง :&lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; สามารถนั่งรถไปอำเภอกันตรัง สาย ตรัง-กันตัง ใช้เวลา 30 นาที ขึ้นรถที่หน้าสถานีรถไฟตรัง บอกคนขับลงพิพิธภัณฑ์ พระยารัษฎา ค่าโดยสารคนละ 60 บาท หลังจากนั้นสามารถเดินไปยังสถานีรถไฟกันตังสถานีรถไฟสุดคลาสสิค&lt;/p&gt;\n&quot; +
+<i>37</i>&nbsp;            &quot;\n&quot; +
+<i>38</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>39</i>&nbsp;            &quot;&lt;p&gt;&lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;วันเวลาเปิด-ปิด :&lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; เปิดอังคาร - อาทิตย์ 9:00 - 16:00 น. ปิดวันจันทร์ โดยไม่เก็บค่าเข้าชม&lt;/p&gt;\n&quot; +
+<i>40</i>&nbsp;            &quot;\n&quot; +
+<i>41</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&quot;;
+<i>42</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>43</i>&nbsp;    protected void onCreate(Bundle savedInstanceState) {
+<b class="nc"><i>44</i>&nbsp;        super.onCreate(savedInstanceState);</b>
+<b class="nc"><i>45</i>&nbsp;        setContentView(R.layout.activity_atttaction7);</b>
+<i>46</i>&nbsp;
+<b class="nc"><i>47</i>&nbsp;        MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.fragment11);</b>
+<b class="nc"><i>48</i>&nbsp;        mapFragment.getMapAsync(this);</b>
+<i>49</i>&nbsp;    }
+<i>50</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>51</i>&nbsp;    @Override
+<i>52</i>&nbsp;    public void onMapReady(GoogleMap map) {
+<b class="nc"><i>53</i>&nbsp;        LatLng sydney = new LatLng(7.407594, 99.516445);</b>
+<i>54</i>&nbsp;
+<i>55</i>&nbsp;        //map.setMyLocationEnabled(true);
+<b class="nc"><i>56</i>&nbsp;        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 14));</b>
+<b class="nc"><i>57</i>&nbsp;        map.addMarker(new MarkerOptions().title(&quot;พิพิธภัณฑ์พระยารัษฎานุประดิษฐ์มหิศรภักดี&quot;).position(sydney));</b>
+<i>58</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<b class="nc"><i>59</i>&nbsp;        mWebView = (WebView) findViewById(R.id.webView2);</b>
+<b class="nc"><i>60</i>&nbsp;        mWebView.setWebViewClient(new WebViewClient() {</b>
+<i>61</i>&nbsp;
+<i>62</i>&nbsp;            @Override
+<i>63</i>&nbsp;            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+<i>64</i>&nbsp;                // TODO Auto-generated method stub
+<b class="nc"><i>65</i>&nbsp;                view.loadUrl(url);</b>
+<b class="nc"><i>66</i>&nbsp;                return true;</b>
+<i>67</i>&nbsp;            }
+<i>68</i>&nbsp;        });
+<b class="nc"><i>69</i>&nbsp;        String head1 = &quot;&lt;head&gt;&lt;style&gt;@font-face {font-family: &#39;arial&#39;;src: url(&#39;file:///android_asset/fonts/angsa.ttf&#39;);}body {font-family: &#39;verdana&#39;;}&lt;/style&gt;&lt;/head&gt;&quot;;</b>
+<b class="nc"><i>70</i>&nbsp;        String text = &quot;&lt;html&gt;&quot; + head1</b>
+<i>71</i>&nbsp;                + &quot;&lt;body style=\&quot;font-family: arial\&quot;&gt;&quot; + htmlstr1
+<i>72</i>&nbsp;                + &quot;&lt;/body&gt;&lt;/html&gt;&quot;;
+<i>73</i>&nbsp;
+<b class="nc"><i>74</i>&nbsp;        mWebView.loadDataWithBaseURL(&quot;&quot;,text,&quot;text2/html&quot;, &quot;utf-8&quot;, &quot;&quot;);</b>
+<i>75</i>&nbsp;
+<b class="nc"><i>76</i>&nbsp;        findViewById(R.id.textViewatttaction7).setOnClickListener(new View.OnClickListener() {</b>
+<i>77</i>&nbsp;            @Override
+<i>78</i>&nbsp;            public void onClick(View v) {
+<b class="nc"><i>79</i>&nbsp;                String url = &quot;https://www.google.co.th/maps/dir/13.7125727,100.591817/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%A9%E0%B8%8E%E0%B8%B2%E0%B8%99%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B9%8C%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%A8%E0%B8%A3%E0%B8%A0%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B5+%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5+%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%87+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD+%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%87+%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87+92110/@10.5584501,97.5786302,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x304deb6e9322894b:0xdd6178cba708bb1d!2m2!1d99.5154153!2d7.4075831&quot;;</b>
+<i>80</i>&nbsp;
+<b class="nc"><i>81</i>&nbsp;                Intent i = new Intent(Intent.ACTION_VIEW);</b>
+<b class="nc"><i>82</i>&nbsp;                i.setData(Uri.parse(url));</b>
+<b class="nc"><i>83</i>&nbsp;                startActivity(i);</b>
+<i>84</i>&nbsp;            }
+<i>85</i>&nbsp;        });
+<i>86</i>&nbsp;
+<i>87</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<b class="nc"><i>88</i>&nbsp;        mDemoSlider = (SliderLayout) findViewById(R.id.slider);</b>
+<b class="nc"><i>89</i>&nbsp;        HashMap&lt;String, Integer&gt; file_maps = new HashMap&lt;&gt;();</b>
+<b class="nc"><i>90</i>&nbsp;        file_maps.put(&quot;พิพิธภัณฑ์พระยารัษฎานุประดิษฐ์มหิศรภักดี.&quot;, R.drawable.attraction12);</b>
+<b class="nc"><i>91</i>&nbsp;        file_maps.put(&quot;พิพิธภัณฑ์พระยารัษฎานุประดิษฐ์มหิศรภักดี..&quot;, R.drawable.attraction13);</b>
+<b class="nc"><i>92</i>&nbsp;        file_maps.put(&quot;พิพิธภัณฑ์พระยารัษฎานุประดิษฐ์มหิศรภักดี...&quot;, R.drawable.attraction14);</b>
+<i>93</i>&nbsp;
+<i>94</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<b class="nc"><i>95</i>&nbsp;        for (String name : file_maps.keySet()) {</b>
+<b class="nc"><i>96</i>&nbsp;            TextSliderView textSliderView = new TextSliderView(this);</b>
+<i>97</i>&nbsp;
+<b class="nc"><i>98</i>&nbsp;            textSliderView</b>
+<b class="nc"><i>99</i>&nbsp;                    .description(name)</b>
+<b class="nc"><i>100</i>&nbsp;                    .image(file_maps.get(name))</b>
+<b class="nc"><i>101</i>&nbsp;                    .setScaleType(BaseSliderView.ScaleType.Fit)</b>
+<b class="nc"><i>102</i>&nbsp;                    .setOnSliderClickListener(this);</b>
+<i>103</i>&nbsp;
+<b class="nc"><i>104</i>&nbsp;            textSliderView.bundle(new Bundle());</b>
+<b class="nc"><i>105</i>&nbsp;            textSliderView.getBundle()</b>
+<b class="nc"><i>106</i>&nbsp;                    .putString(&quot;extra&quot;, name);</b>
+<i>107</i>&nbsp;
+<b class="nc"><i>108</i>&nbsp;            mDemoSlider.addSlider(textSliderView);</b>
+<b class="nc"><i>109</i>&nbsp;        }</b>
+<b class="nc"><i>110</i>&nbsp;        mDemoSlider.setPresetTransformer(SliderLayout.Transformer.Accordion);</b>
+<b class="nc"><i>111</i>&nbsp;        mDemoSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);</b>
+<b class="nc"><i>112</i>&nbsp;        mDemoSlider.setCustomAnimation(new DescriptionAnimation());</b>
+<b class="nc"><i>113</i>&nbsp;        mDemoSlider.setDuration(4000);</b>
+<b class="nc"><i>114</i>&nbsp;        mDemoSlider.addOnPageChangeListener(this);</b>
+<i>115</i>&nbsp;    }
+<i>116</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>117</i>&nbsp;    @Override
+<i>118</i>&nbsp;    protected void onStop() {
+<b class="nc"><i>119</i>&nbsp;        mDemoSlider.stopAutoCycle();</b>
+<b class="nc"><i>120</i>&nbsp;        super.onStop();</b>
+<i>121</i>&nbsp;    }
+<i>122</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>123</i>&nbsp;    public void onSliderClick(BaseSliderView slider) {
+<b class="nc"><i>124</i>&nbsp;        Toast.makeText(this, slider.getBundle().get(&quot;extra&quot;) + &quot;&quot;, Toast.LENGTH_SHORT).show();</b>
+<i>125</i>&nbsp;
+<i>126</i>&nbsp;    }
+<i>127</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>128</i>&nbsp;
+<i>129</i>&nbsp;    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+<i>130</i>&nbsp;    }
+<i>131</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>132</i>&nbsp;
+<i>133</i>&nbsp;    public void onPageSelected(int position) {
+<b class="nc"><i>134</i>&nbsp;        Log.d(&quot;Slider Demo&quot;, &quot;Page Changed: &quot; + position);</b>
+<i>135</i>&nbsp;    }
+<i>136</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>137</i>&nbsp;    public void onPageScrollStateChanged(int state) {
+<i>138</i>&nbsp;    }
+<i>139</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-03-21 10:19</div>
+</div>
+</body>
+</html>

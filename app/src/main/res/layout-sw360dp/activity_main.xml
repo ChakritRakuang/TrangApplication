@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:foreground="?attr/selectableItemBackground"
+    tools:context=".MainActivity"
+    android:background="#3d3d3d">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                tools:context="com.daimajia.slider.demo.MainActivity"
+                tools:ignore="UselessParent">
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    custom:pager_animation="Accordion"
+                    custom:auto_cycle="true"
+                    custom:indicator_visibility="visible"
+                    custom:pager_animation_span="1100"
+                    android:layout_height="200dp"/>
+
+                <com.daimajia.slider.library.Indicators.PagerIndicator
+                    android:id="@+id/custom_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    custom:selected_color="#0095BF"
+                    custom:unselected_color="#55333333"
+                    custom:selected_drawable="@drawable/bird"
+                    custom:shape="oval"
+                    custom:selected_padding_left="5dp"
+                    custom:selected_padding_right="5dp"
+                    custom:unselected_padding_left="5dp"
+                    custom:unselected_padding_right="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    custom:selected_width="6dp"
+                    custom:selected_height="6dp"
+                    custom:unselected_width="6dp"
+                    custom:unselected_height="6dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <com.daimajia.slider.library.Indicators.PagerIndicator
+                    android:id="@+id/custom_indicator2"
+                    style="@style/AndroidImageSlider_Corner_Oval_Orange"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"/>
+
+                <FrameLayout
+                    android:layout_width="450dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/frameLayout"
+                    android:layout_toStartOf="@+id/custom_indicator2"
+                    android:layout_below="@+id/slider"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/trangclocktower"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|bottom"
+                        android:background="@android:drawable/screen_background_dark_transparent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="16dp"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="16dp"
+                            android:text="ข้อมูลจังหวัดตรัง"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColorPrimary"
+                            android:textStyle="bold"
+                            android:textAlignment="viewEnd"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="450dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_toEndOf="@+id/frameLayout"
+                    android:layout_below="@+id/slider"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/frameLayout7">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+
+                        android:src="@drawable/ggggggggg"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|bottom"
+                        android:background="@android:drawable/screen_background_dark_transparent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="16dp"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="16dp"
+                            android:text="เมืองต้องห้ามพลาด"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColorPrimary"
+                            android:textStyle="bold"
+                            android:textAlignment="viewEnd"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="450dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@+id/frameLayout"
+                    android:layout_toStartOf="@+id/custom_indicator2"
+                    android:id="@+id/frameLayout2"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="6dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/talaaaaaaaaaaaaaa"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|bottom"
+                        android:background="@android:drawable/screen_background_dark_transparent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text_card_namepha_tho_na_muen_si1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="16dp"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="16dp"
+                            android:text="สถานที่ท่องเที่ยว"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColorPrimary"
+                            android:textStyle="bold"
+                            android:textAlignment="viewEnd"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="450dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/frameLayout6"
+                    android:layout_below="@+id/frameLayout"
+                    android:layout_toEndOf="@+id/frameLayout2">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_horizontal|top"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/payuuun"
+                        android:layout_alignTop="@+id/frameLayout2"
+                        android:layout_toEndOf="@+id/frameLayout2"
+                        android:layout_alignBottom="@+id/frameLayout2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:background="@android:drawable/screen_background_dark_transparent"
+                        android:orientation="vertical"
+                        android:layout_alignBottom="@+id/slider"
+                        android:layout_alignEnd="@+id/imageView2"
+                        android:layout_toEndOf="@+id/custom_indicator">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="16dp"
+                            android:paddingLeft="16dp"
+                            android:paddingRight="16dp"
+                            android:paddingTop="16dp"
+                            android:text="สินค้าและของฝาก"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColorPrimary"
+                            android:textStyle="bold"
+                            android:textAlignment="viewEnd"
+                            android:textSize="16dp"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:layout_alignBottom="@+id/imageView2"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignStart="@+id/imageView2" />
+                    </LinearLayout>
+                </FrameLayout>
+
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

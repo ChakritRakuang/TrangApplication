@@ -1,0 +1,144 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: FragmentCredit</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">chakritrakhuang.trangapp.se.science.bu.bomb</a> ]
+</div>
+
+<h1>Coverage Summary for Class: FragmentCredit (chakritrakhuang.trangapp.se.science.bu.bomb)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">FragmentCredit</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 9)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">FragmentCredit$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 12)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package chakritrakhuang.trangapp.se.science.bu.bomb;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.content.Context;
+<i>4</i>&nbsp;import android.content.Intent;
+<i>5</i>&nbsp;import android.os.Bundle;
+<i>6</i>&nbsp;import android.support.design.widget.FloatingActionButton;
+<i>7</i>&nbsp;import android.support.v7.app.ActionBar;
+<i>8</i>&nbsp;import android.support.v7.app.AppCompatActivity;
+<i>9</i>&nbsp;import android.view.View;
+<i>10</i>&nbsp;
+<b class="nc"><i>11</i>&nbsp;public class FragmentCredit extends AppCompatActivity  {</b>
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;    public static Intent createIntent(Context context) {
+<b class="nc"><i>14</i>&nbsp;        return new Intent(context, FragmentCredit.class);</b>
+<i>15</i>&nbsp;    }
+<i>16</i>&nbsp;
+<i>17</i>&nbsp;    @Override
+<i>18</i>&nbsp;    protected void onCreate(Bundle savedInstanceState) {
+<b class="nc"><i>19</i>&nbsp;        super.onCreate(savedInstanceState);</b>
+<b class="nc"><i>20</i>&nbsp;        ActionBar actionBar = getSupportActionBar();</b>
+<b class="nc"><i>21</i>&nbsp;        assert actionBar != null;</b>
+<b class="nc"><i>22</i>&nbsp;        actionBar.hide();//«èÍ¹ actionbar</b>
+<b class="nc"><i>23</i>&nbsp;        setContentView(R.layout.fragment_credit);</b>
+<i>24</i>&nbsp;
+<b class="nc"><i>25</i>&nbsp;        FloatingActionButton fab3 = (FloatingActionButton) findViewById(R.id.fab3);</b>
+<b class="nc"><i>26</i>&nbsp;        fab3.setOnClickListener(new View.OnClickListener() {</b>
+<i>27</i>&nbsp;            public void onClick(View arg0) {
+<b class="nc"><i>28</i>&nbsp;                Intent i2 = new Intent(FragmentCredit.this, AboutUSActivity.class);</b>
+<b class="nc"><i>29</i>&nbsp;                startActivity(i2);</b>
+<i>30</i>&nbsp;            }
+<i>31</i>&nbsp;        });
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;
+<i>34</i>&nbsp;    }
+<i>35</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-03-21 10:19</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,267 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: atttaction5</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">chakritrakhuang.trangapp.se.science.bu.bomb</a> ]
+</div>
+
+<h1>Coverage Summary for Class: atttaction5 (chakritrakhuang.trangapp.se.science.bu.bomb)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">atttaction5</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 41)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">atttaction5$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+  </tr>
+  <tr>
+    <td class="name">atttaction5$2</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 5)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 49)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package chakritrakhuang.trangapp.se.science.bu.bomb;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.content.Intent;
+<i>4</i>&nbsp;import android.net.Uri;
+<i>5</i>&nbsp;import android.os.Bundle;
+<i>6</i>&nbsp;import android.support.v7.app.AppCompatActivity;
+<i>7</i>&nbsp;import android.util.Log;
+<i>8</i>&nbsp;import android.view.View;
+<i>9</i>&nbsp;import android.webkit.WebView;
+<i>10</i>&nbsp;import android.webkit.WebViewClient;
+<i>11</i>&nbsp;import android.widget.Toast;
+<i>12</i>&nbsp;
+<i>13</i>&nbsp;import com.daimajia.slider.library.Animations.DescriptionAnimation;
+<i>14</i>&nbsp;import com.daimajia.slider.library.SliderLayout;
+<i>15</i>&nbsp;import com.daimajia.slider.library.SliderTypes.BaseSliderView;
+<i>16</i>&nbsp;import com.daimajia.slider.library.SliderTypes.TextSliderView;
+<i>17</i>&nbsp;import com.daimajia.slider.library.Tricks.ViewPagerEx;
+<i>18</i>&nbsp;import com.google.android.gms.maps.CameraUpdateFactory;
+<i>19</i>&nbsp;import com.google.android.gms.maps.GoogleMap;
+<i>20</i>&nbsp;import com.google.android.gms.maps.MapFragment;
+<i>21</i>&nbsp;import com.google.android.gms.maps.OnMapReadyCallback;
+<i>22</i>&nbsp;import com.google.android.gms.maps.model.LatLng;
+<i>23</i>&nbsp;import com.google.android.gms.maps.model.MarkerOptions;
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;import java.util.HashMap;
+<i>26</i>&nbsp;
+<b class="nc"><i>27</i>&nbsp;public class atttaction5 extends AppCompatActivity implements OnMapReadyCallback, BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener {</b>
+<i>28</i>&nbsp;    private SliderLayout mDemoSlider;
+<i>29</i>&nbsp;    WebView mWebView;
+<i>30</i>&nbsp;
+<b class="nc"><i>31</i>&nbsp;    String htmlstr1 = &quot;&lt;p style=\&quot;text-align: center;\&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +</b>
+<i>32</i>&nbsp;            &quot;\n&quot; +
+<i>33</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: left;\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;ข้อมูลทั่วไป :&lt;/strong&gt; &lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; ถ้ำเลเขากอบ &lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;สถานที่ท่องเที่ยวธรรมชาติภายในถ้ำมีหินงอกหินย้อยตลอดเส้นทางถ้ำประมาณ 4 กิโลเมตร&amp;nbsp; เนื่องจากภายในถ้ำมีทางน้ำใต้ดินไหลผ่าน การเข้าไปจึงต้องใช้เรือล่องตามลำน้ำเข้าไปข้างใน เพื่อไปชมหินงอกหินย้อยอันงดงามได้ นอกจากนี้ภายในถ้ำยังมี หนึ่งในความอัศจรรย์ที่ได้รับการยกย่องให้เป็น &lt;strong&gt;Unseen Thailand&amp;nbsp; คือ ถ้ำลอด หรือ ถ้ำมังกร&lt;/strong&gt; &lt;span style=\&quot;font-size: 22px;\&quot;&gt;ซึ่งถือเป็นไฮไลท์ในการมาเยือนถ้ำเลเขากอบ เพราะสร้างความตื่นเต้น หวาดเสียว ลุ้นระทึก และประทับใจให้กับนักท่องเที่ยว เนื่องจากต้องนอนราบขนานไปกับเรือ เพื่อลอดส่วนที่มีเพดานถ้ำที่ต่ำที่สุด มืดที่สุด แคบที่สุด ตลอดระยะทางประมาณ 350 เมตร เชื่อกันว่าการได้ลอดผ่านจุดนี้ เปรียบเสมือนการนอนลอดผ่านท้องมังกรถือเป็นสิริมงคล ทำให้ชาวจีนในประเทศมาเลเซีย สิงคโปร์ ไต้หวัน เดินทางมาลอดกันเป็นจำนวนมาก&lt;/p&gt;\n&quot; +
+<i>34</i>&nbsp;            &quot;\n&quot; +
+<i>35</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>36</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: left;\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;การเดินทาง :&lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; ถ้ำเลเขากอบห่างจากเมืองตรัง ประมาณ 35 กิโลเมตร ใช้ทางหลวงหมายเลข 4 สายตรัง-ห้วยยอด-วังวิเศษ ทางแยกเข้าถ้ำ อยู่เลยอำเภอห้วยยอดไปทางวังวิเศษประมาณ 7 กิโลเมตร โดยเลี้ยวซ้ายเข้าถนน รพช. (เขากอบ-หัวแหวน) ระหว่างหลัก กิโลเมตรที่ 7-8 เข้าไปประมาณ 500 เมตร จึงเลี้ยวซ้ายไปเขากอบ ซึ่งเป็นสถานที่ตั้ง ถ้ำเลกอบ&lt;/p&gt;\n&quot; +
+<i>37</i>&nbsp;            &quot;\n&quot; +
+<i>38</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>39</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: left;\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;วันเวลาเปิด-ปิด :&lt;/strong&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt; สามารถเข้าชมได้ทั้งปี ยกเว้นฤดูน้ำหลาก เวลา 8.00 &amp;ndash; 18.00 น.&lt;/p&gt;\n&quot; +
+<i>40</i>&nbsp;            &quot;\n&quot; +
+<i>41</i>&nbsp;            &quot;&lt;p style=\&quot;text-align: left;\&quot;&gt;&amp;nbsp;&lt;/p&gt;&quot;;
+<i>42</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>43</i>&nbsp;    protected void onCreate(Bundle savedInstanceState) {
+<b class="nc"><i>44</i>&nbsp;        super.onCreate(savedInstanceState);</b>
+<b class="nc"><i>45</i>&nbsp;        setContentView(R.layout.activity_atttaction5);</b>
+<i>46</i>&nbsp;
+<b class="nc"><i>47</i>&nbsp;        MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.fragment9);</b>
+<b class="nc"><i>48</i>&nbsp;        mapFragment.getMapAsync(this);</b>
+<i>49</i>&nbsp;    }
+<i>50</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>51</i>&nbsp;    @Override
+<i>52</i>&nbsp;    public void onMapReady(GoogleMap map) {
+<b class="nc"><i>53</i>&nbsp;        LatLng sydney = new LatLng(7.790147, 99.574124);</b>
+<i>54</i>&nbsp;
+<i>55</i>&nbsp;        //map.setMyLocationEnabled(true);
+<b class="nc"><i>56</i>&nbsp;        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 14));</b>
+<b class="nc"><i>57</i>&nbsp;        map.addMarker(new MarkerOptions().title(&quot;ถํ้าเลเขากอบ&quot;).position(sydney));</b>
+<i>58</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<b class="nc"><i>59</i>&nbsp;        mWebView = (WebView) findViewById(R.id.webView2);</b>
+<b class="nc"><i>60</i>&nbsp;        mWebView.setWebViewClient(new WebViewClient() {</b>
+<i>61</i>&nbsp;
+<i>62</i>&nbsp;            @Override
+<i>63</i>&nbsp;            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+<i>64</i>&nbsp;                // TODO Auto-generated method stub
+<b class="nc"><i>65</i>&nbsp;                view.loadUrl(url);</b>
+<b class="nc"><i>66</i>&nbsp;                return true;</b>
+<i>67</i>&nbsp;            }
+<i>68</i>&nbsp;        });
+<b class="nc"><i>69</i>&nbsp;        String head1 = &quot;&lt;head&gt;&lt;style&gt;@font-face {font-family: &#39;arial&#39;;src: url(&#39;file:///android_asset/fonts/angsa.ttf&#39;);}body {font-family: &#39;verdana&#39;;}&lt;/style&gt;&lt;/head&gt;&quot;;</b>
+<b class="nc"><i>70</i>&nbsp;        String text = &quot;&lt;html&gt;&quot; + head1</b>
+<i>71</i>&nbsp;                + &quot;&lt;body style=\&quot;font-family: arial\&quot;&gt;&quot; + htmlstr1
+<i>72</i>&nbsp;                + &quot;&lt;/body&gt;&lt;/html&gt;&quot;;
+<i>73</i>&nbsp;
+<b class="nc"><i>74</i>&nbsp;        mWebView.loadDataWithBaseURL(&quot;&quot;,text,&quot;text2/html&quot;, &quot;utf-8&quot;, &quot;&quot;);</b>
+<i>75</i>&nbsp;
+<b class="nc"><i>76</i>&nbsp;        findViewById(R.id.textViewatttaction5).setOnClickListener(new View.OnClickListener() {</b>
+<i>77</i>&nbsp;            @Override
+<i>78</i>&nbsp;            public void onClick(View v) {
+<b class="nc"><i>79</i>&nbsp;                String url = &quot;https://www.google.co.th/maps/dir/13.7125727,100.591817/Khao+Kop+%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5+%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%81%E0%B8%AD%E0%B8%9A+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD+%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%A2%E0%B8%AD%E0%B8%94+%E0%B8%95%E0%B8%A3%E0%B8%B1%E0%B8%87+92130/@10.7495098,97.5786334,7z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x30527313e985e75b:0xff8422d2701f0554!2m2!1d99.5741667!2d7.7897222&quot;;</b>
+<i>80</i>&nbsp;
+<b class="nc"><i>81</i>&nbsp;                Intent i = new Intent(Intent.ACTION_VIEW);</b>
+<b class="nc"><i>82</i>&nbsp;                i.setData(Uri.parse(url));</b>
+<b class="nc"><i>83</i>&nbsp;                startActivity(i);</b>
+<i>84</i>&nbsp;            }
+<i>85</i>&nbsp;        });
+<i>86</i>&nbsp;
+<i>87</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<b class="nc"><i>88</i>&nbsp;        mDemoSlider = (SliderLayout) findViewById(R.id.slider);</b>
+<b class="nc"><i>89</i>&nbsp;        HashMap&lt;String, Integer&gt; file_maps = new HashMap&lt;&gt;();</b>
+<b class="nc"><i>90</i>&nbsp;        file_maps.put(&quot;ถํ้าเลเขากอบ.&quot;, R.drawable.attraction26);</b>
+<b class="nc"><i>91</i>&nbsp;        file_maps.put(&quot;ถํ้าเลเขากอบ..&quot;, R.drawable.attraction27);</b>
+<b class="nc"><i>92</i>&nbsp;        file_maps.put(&quot;ถํ้าเลเขากอบ...&quot;, R.drawable.attraction28);</b>
+<i>93</i>&nbsp;
+<i>94</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<b class="nc"><i>95</i>&nbsp;        for (String name : file_maps.keySet()) {</b>
+<b class="nc"><i>96</i>&nbsp;            TextSliderView textSliderView = new TextSliderView(this);</b>
+<i>97</i>&nbsp;
+<b class="nc"><i>98</i>&nbsp;            textSliderView</b>
+<b class="nc"><i>99</i>&nbsp;                    .description(name)</b>
+<b class="nc"><i>100</i>&nbsp;                    .image(file_maps.get(name))</b>
+<b class="nc"><i>101</i>&nbsp;                    .setScaleType(BaseSliderView.ScaleType.Fit)</b>
+<b class="nc"><i>102</i>&nbsp;                    .setOnSliderClickListener(this);</b>
+<i>103</i>&nbsp;
+<b class="nc"><i>104</i>&nbsp;            textSliderView.bundle(new Bundle());</b>
+<b class="nc"><i>105</i>&nbsp;            textSliderView.getBundle()</b>
+<b class="nc"><i>106</i>&nbsp;                    .putString(&quot;extra&quot;, name);</b>
+<i>107</i>&nbsp;
+<b class="nc"><i>108</i>&nbsp;            mDemoSlider.addSlider(textSliderView);</b>
+<b class="nc"><i>109</i>&nbsp;        }</b>
+<b class="nc"><i>110</i>&nbsp;        mDemoSlider.setPresetTransformer(SliderLayout.Transformer.Accordion);</b>
+<b class="nc"><i>111</i>&nbsp;        mDemoSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);</b>
+<b class="nc"><i>112</i>&nbsp;        mDemoSlider.setCustomAnimation(new DescriptionAnimation());</b>
+<b class="nc"><i>113</i>&nbsp;        mDemoSlider.setDuration(4000);</b>
+<b class="nc"><i>114</i>&nbsp;        mDemoSlider.addOnPageChangeListener(this);</b>
+<i>115</i>&nbsp;    }
+<i>116</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>117</i>&nbsp;    @Override
+<i>118</i>&nbsp;    protected void onStop() {
+<b class="nc"><i>119</i>&nbsp;        mDemoSlider.stopAutoCycle();</b>
+<b class="nc"><i>120</i>&nbsp;        super.onStop();</b>
+<i>121</i>&nbsp;    }
+<i>122</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>123</i>&nbsp;    public void onSliderClick(BaseSliderView slider) {
+<b class="nc"><i>124</i>&nbsp;        Toast.makeText(this, slider.getBundle().get(&quot;extra&quot;) + &quot;&quot;, Toast.LENGTH_SHORT).show();</b>
+<i>125</i>&nbsp;
+<i>126</i>&nbsp;    }
+<i>127</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>128</i>&nbsp;
+<i>129</i>&nbsp;    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+<i>130</i>&nbsp;    }
+<i>131</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>132</i>&nbsp;
+<i>133</i>&nbsp;    public void onPageSelected(int position) {
+<b class="nc"><i>134</i>&nbsp;        Log.d(&quot;Slider Demo&quot;, &quot;Page Changed: &quot; + position);</b>
+<i>135</i>&nbsp;    }
+<i>136</i>&nbsp;    //------------------------------------------------------------------------------------------------------
+<i>137</i>&nbsp;    public void onPageScrollStateChanged(int state) {
+<i>138</i>&nbsp;    }
+<i>139</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-03-21 10:19</div>
+</div>
+</body>
+</html>

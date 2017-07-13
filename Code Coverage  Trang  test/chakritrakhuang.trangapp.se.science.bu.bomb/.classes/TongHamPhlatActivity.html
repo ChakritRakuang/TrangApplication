@@ -1,0 +1,365 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: TongHamPhlatActivity</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">chakritrakhuang.trangapp.se.science.bu.bomb</a> ]
+</div>
+
+<h1>Coverage Summary for Class: TongHamPhlatActivity (chakritrakhuang.trangapp.se.science.bu.bomb)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">TongHamPhlatActivity</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 20)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">TongHamPhlatActivity$1</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 3)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/ 23)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package chakritrakhuang.trangapp.se.science.bu.bomb;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import android.annotation.SuppressLint;
+<i>4</i>&nbsp;import android.content.Context;
+<i>5</i>&nbsp;import android.content.Intent;
+<i>6</i>&nbsp;import android.os.Bundle;
+<i>7</i>&nbsp;import android.support.v7.app.AppCompatActivity;
+<i>8</i>&nbsp;import android.webkit.WebSettings;
+<i>9</i>&nbsp;import android.webkit.WebView;
+<i>10</i>&nbsp;import android.webkit.WebViewClient;
+<i>11</i>&nbsp;
+<b class="nc"><i>12</i>&nbsp;public class TongHamPhlatActivity extends AppCompatActivity {</b>
+<i>13</i>&nbsp;
+<i>14</i>&nbsp;    WebView mWebView;
+<b class="nc"><i>15</i>&nbsp;    String htmlstr1 = &quot;&lt;table border=\&quot;0\&quot; cellpadding=\&quot;7\&quot; cellspacing=\&quot;0\&quot; width=\&quot;100%\&quot;&gt;\n&quot; +</b>
+<i>16</i>&nbsp;            &quot;\t&lt;tbody&gt;\n&quot; +
+<i>17</i>&nbsp;            &quot;\t\t&lt;tr&gt;\n&quot; +
+<i>18</i>&nbsp;            &quot;\t\t\t&lt;div class=\&quot;thumb\&quot; style=\&quot;margin: 0px 15px 0px 0px; padding: 0px; border: 0px; font-size: 14px; font-family: Helvetica, Arial, Tahoma, &#39;Lucida Grande&#39;, sans-serif; vertical-align: bottom; font-stretch: inherit; line-height: 17.5px; float: left;\&quot;&gt;&lt;a href=\&quot;http://travel.mthai.com/world-travel/131760.html\&quot; style=\&quot;margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: inherit; font-family: inherit; vertical-align: bottom; font-variant: inherit; font-stretch: inherit; line-height: inherit; color: rgb(1, 93, 158); text-decoration: none;\&quot; title=\&quot;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; height=\&quot;400\&quot; src=\&quot;https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQmr6pPwth8SiL2yMXGpW6nAada7ofTZ1lV7TK3IPXCphZ7zBt8\&quot; style=\&quot;border: 2px solid rgb(255, 255, 255); margin: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: inherit; font-family: inherit; vertical-align: bottom; font-variant: inherit; font-stretch: inherit; line-height: inherit; height: 176px; width: 225px;\&quot; wieght=\&quot;600\&quot; /&gt;&lt;/a&gt;&lt;/div&gt;\n&quot; +
+<i>19</i>&nbsp;            &quot;\n&quot; +
+<i>20</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +
+<i>21</i>&nbsp;            &quot;\n&quot; +
+<i>22</i>&nbsp;            &quot;&lt;p style=\&quot;margin: 10px 0px; padding: 0px; border: 0px; font-size: 14px; font-family: Helvetica, Arial, Tahoma, &#39;Lucida Grande&#39;, sans-serif; vertical-align: bottom; font-stretch: inherit; line-height: 17.5px; color: rgb(79, 72, 64); text-shadow: white 1px 1px;\&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +
+<i>23</i>&nbsp;            &quot;\n&quot; +
+<i>24</i>&nbsp;            &quot;&lt;p style=\&quot;margin: 10px 0px; padding: 0px; border: 0px; font-size: 14px; font-family: Helvetica, Arial, Tahoma, &#39;Lucida Grande&#39;, sans-serif; vertical-align: bottom; font-stretch: inherit; line-height: 17.5px; color: rgb(79, 72, 64); text-shadow: white 1px 1px;\&quot;&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +
+<i>25</i>&nbsp;            &quot;\n&quot; +
+<i>26</i>&nbsp;            &quot;&lt;p style=\&quot;margin: 10px 0px; padding: 0px; border: 0px; font-size: 14px; font-family: Helvetica, Arial, Tahoma, &#39;Lucida Grande&#39;, sans-serif; vertical-align: bottom; font-stretch: inherit; line-height: 17.5px; color: rgb(79, 72, 64); text-shadow: white 1px 1px;\&quot;&gt;&lt;span style=\&quot;font-size:24px;\&quot;&gt;&lt;span style=\&quot;font-family:arial,helvetica,sans-serif;\&quot;&gt;&lt;span style=\&quot;color:#000000;\&quot;&gt;มาเที่ยวตรังต้องห้ามพลาด 9 อย่าง&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&quot; +
+<i>27</i>&nbsp;            &quot;\n&quot; +
+<i>28</i>&nbsp;            &quot;\n&quot; +
+<i>29</i>&nbsp;            &quot;\t\t&lt;/tr&gt;\n&quot; +
+<i>30</i>&nbsp;            &quot;\t\t\t&lt;td width=\&quot;33%\&quot;&gt;\n&quot; +
+<i>31</i>&nbsp;            &quot;\t\t\t&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; src=\&quot;http://thaiclassicclub.com/wp-content/uploads/2015/06/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B2-%E0%B8%A3%E0%B8%96%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81-TUK-TUK-THAILAND-teen.mthaicnv000038_resize.jpg\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>32</i>&nbsp;            &quot;\n&quot; +
+<i>33</i>&nbsp;            &quot;\t\t\t&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>34</i>&nbsp;            &quot;\n&quot; +
+<i>35</i>&nbsp;            &quot;\t\t\t&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>36</i>&nbsp;            &quot;\n&quot; +
+<i>37</i>&nbsp;            &quot;\t\t\t&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;1) ตุ๊กตุ๊กหัวกบ&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;&quot; +
+<i>38</i>&nbsp;            &quot;\n&quot; +
+<i>39</i>&nbsp;            &quot;\t\t\t&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>40</i>&nbsp;            &quot;\t\t\t&lt;/td&gt;\n&quot; +
+<i>41</i>&nbsp;            &quot;\t\t&lt;/tr&gt;\n&quot; +
+<i>42</i>&nbsp;            &quot;\t&lt;/tbody&gt;\n&quot; +
+<i>43</i>&nbsp;            &quot;\t&lt;tbody&gt;\n&quot; +
+<i>44</i>&nbsp;            &quot;\t\t&lt;tr&gt;\n&quot; +
+<i>45</i>&nbsp;            &quot;\t\t\t&lt;td&gt;\n&quot; +
+<i>46</i>&nbsp;            &quot;\t\t\t&lt;p&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;ลองทำตัวเปรี้ยว ไม่เจี๊ยวจ๊าว แต่กิ๊ปเก๋ นั่งเต๊ะท่าเท่ห์ บนรถ  &amp;quot;ตุ๊กตุ๊กหัวกบ&amp;quot;  แวะวนไปแถวๆ วงเวียนพะยูน แล้ว Selfie ส่งไปให้ใครต่อใครออกอาการตาร้อนผ่าว จนอดใจไม่ไหว ต้องเก็บผ้าผ่อนลงกระเป๋ามาเที่ยวเมืองตรัง สักครั้งหนึ่ง&lt;/p&gt;\n&quot; +
+<i>47</i>&nbsp;            &quot;\n&quot; +
+<i>48</i>&nbsp;            &quot;\t\t\t&lt;hr /&gt;\n&quot; +
+<i>49</i>&nbsp;            &quot;\t\t\t&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +
+<i>50</i>&nbsp;            &quot;\t\t\t&lt;/td&gt;\n&quot; +
+<i>51</i>&nbsp;            &quot;\t\t&lt;/tr&gt;\n&quot; +
+<i>52</i>&nbsp;            &quot;\t&lt;/tbody&gt;\n&quot; +
+<i>53</i>&nbsp;            &quot;&lt;/table&gt;\n&quot; +
+<i>54</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;600\&quot;height=\&quot;400\&quot;src=\&quot;http://img.painaidii.com/images/20140527_6_1401173970_931105.jpg#\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>55</i>&nbsp;            &quot;\n&quot; +
+<i>56</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>57</i>&nbsp;            &quot;\n&quot; +
+<i>58</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;2) นั่งร้านโกปี๊ กินติ่มซำยามเช้า&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>59</i>&nbsp;            &quot;\n&quot; +
+<i>60</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>61</i>&nbsp;            &quot;\n&quot; +
+<i>62</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>63</i>&nbsp;            &quot;\n&quot; +
+<i>64</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;อยากรู้ว่า ติ่มซำกับโกปี้ จะเข้ากันได้ดีขนาดไหน ลองแวะไปร้านโกปี๊ ที่มีอยู่เกือบทุกมุมของเมืองทับเที่ยง เลือกกินติ่มซำจานใดก็ได้ ที่อยู่ในใจคุณ ถ้าใครคิดจะ &amp;quot;มื้อเช้าอย่างพระราชา&amp;quot; ก็ต้องมาเที่ยวเมืองตรัง&lt;/span&gt;\n&quot; +
+<i>65</i>&nbsp;            &quot;\n&quot; +
+<i>66</i>&nbsp;            &quot;&lt;hr /&gt;&lt;/div&gt;\n&quot; +
+<i>67</i>&nbsp;            &quot;\n&quot; +
+<i>68</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot;+
+<i>69</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;600\&quot;height=\&quot;400\&quot;src=\&quot;http://2.bp.blogspot.com/-2eUsr6Rpxh8/T7oE0wvPu7I/AAAAAAAAAO4/VcO9NA82QLI/s1600/%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B9%89%E0%B8%B25.JPG\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>70</i>&nbsp;            &quot;\n&quot; +
+<i>71</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>72</i>&nbsp;            &quot;\n&quot; +
+<i>73</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;3) เคล็ดมงคลยามเช้า กับหมูย่างสูตรตรัง&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>74</i>&nbsp;            &quot;\n&quot; +
+<i>75</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>76</i>&nbsp;            &quot;\n&quot; +
+<i>77</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>78</i>&nbsp;            &quot;\n&quot; +
+<i>79</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;เชื่อกันว่า ถ้าอยากให้กิจกรรมและกิจการในแต่ละวัน เป็นไปแบบหมูหมู ไม่ติดขัด ลองกิน &amp;quot;หมูย่างสูตรตรัง&amp;quot; เป็นอาหารมือเช้า แล้วทุกอย่างจะสมใจนึก เป็นความเชื่อที่มีแต่โบราณ คือสิ่งที่ห้ามพลาด เมื่อมาเยือนถื่นตรัง&lt;/span&gt;\n&quot; +
+<i>80</i>&nbsp;            &quot;\n&quot; +
+<i>81</i>&nbsp;            &quot;&lt;hr /&gt;&lt;/div&gt;\n&quot; +
+<i>82</i>&nbsp;            &quot;\n&quot; +
+<i>83</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>84</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot;+
+<i>85</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;600\&quot;height=\&quot;400\&quot;src=\&quot;http://www.trangzone.com/upload/story/147_Thumb.jpg\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>86</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>87</i>&nbsp;            &quot;\n&quot; +
+<i>88</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>89</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>90</i>&nbsp;            &quot;\n&quot; +
+<i>91</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;4) เค้กภูรา ต้นตับรับเค้กมีรู&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>92</i>&nbsp;            &quot;\n&quot; +
+<i>93</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>94</i>&nbsp;            &quot;\n&quot; +
+<i>95</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>96</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>97</i>&nbsp;            &quot;\n&quot; +
+<i>98</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>99</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;เค้กลำภูรา เค้กมีรู เค้กดังประจำเมืองตรัง อร่อยแบบใสๆ รสชาติกลมกล่อมของเนื้อเค้กนุ่มๆ  หลากรสให้เลือก รสชา กาแฟ ส้ม ใบเตย ผลไม้รวมและอีกหลายรส และยังห้ามพลาดกับขนมพื้นเมืองหลายเมนู ขนมจีบสังขยา ขนมพริกไทย ขนมเป๊ยะฮ่องเต้ เปี๊ยะยิ้ม&lt;/span&gt;\n&quot; +
+<i>100</i>&nbsp;            &quot;\n&quot; +
+<i>101</i>&nbsp;            &quot;&lt;hr /&gt;&lt;/div&gt;\n&quot; +
+<i>102</i>&nbsp;            &quot;\n&quot; +
+<i>103</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>104</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot;+
+<i>105</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;400\&quot;height=\&quot;400\&quot;src=\&quot;http://f.ptcdn.info/046/009/000/1377789819-DSC0869JPG-o.jpg\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>106</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>107</i>&nbsp;            &quot;\n&quot; +
+<i>108</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>109</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>110</i>&nbsp;            &quot;\n&quot; +
+<i>111</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;strong&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;5) เที่ยวกันตัง สุดทางรถไฟฝั่งอันดามัน&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>112</i>&nbsp;            &quot;\n&quot; +
+<i>113</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>114</i>&nbsp;            &quot;\n&quot; +
+<i>115</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>116</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>117</i>&nbsp;            &quot;\n&quot; +
+<i>118</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>119</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;กันตัง อำเภอเล็กๆ ที่โด่งดังเมื่อร้อยกว่าปีก่อน เป็นเมืองท่าทางเศรษฐกิจที่สำคัญของโลกเมืองหนึ่ง มีสถานีรถไฟที่สวยคลาสิก ซึ่งคือสุดทางรถไฟฝั่งอันดามัน นั่งรถไฟไปเที่ยวกันตังสนุกอีกอารมณ์ มีร้านอาหารทะเลชื่อดัง ชวนนักชิมให้ไปลิ้มลองกัน&lt;/span&gt;\n&quot; +
+<i>120</i>&nbsp;            &quot;\n&quot; +
+<i>121</i>&nbsp;            &quot;&lt;hr /&gt;&lt;/div&gt;\n&quot; +
+<i>122</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>123</i>&nbsp;            &quot;\n&quot; +
+<i>124</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>125</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot;+
+<i>126</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;600\&quot;height=\&quot;400\&quot;src=\&quot;http://www.oknation.net/blog/home/blog_data/966/48966/images/tour5.JPG\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>127</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>128</i>&nbsp;            &quot;\n&quot; +
+<i>129</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>130</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>131</i>&nbsp;            &quot;\n&quot; +
+<i>132</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;strong&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;6) ปลูกหญ้า มหาบุญ อุดหนุนชุมชน&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>133</i>&nbsp;            &quot;\n&quot; +
+<i>134</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>135</i>&nbsp;            &quot;\n&quot; +
+<i>136</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>137</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>138</i>&nbsp;            &quot;\n&quot; +
+<i>139</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>140</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;ไปเดินแหวกทะเล  ปลูกหญ้าทะเล ดูปลาในกระชัง ชมธนาคารปู แล้วพายคายัคเที่ยวถ้ำ บ่อน้ำร้อนเค็ม และอิ่มเอมกับอาหารพื้นบ้านในบรรยากาศดีดี ที่บ่อหินฟาร์มสเตย์ อ.สิเกา เป็นแหล่งท่องเที่ยวเชิงนิเวศที่ไ้ด้รางวัลกินรี ปี 2556&lt;/span&gt;\n&quot; +
+<i>141</i>&nbsp;            &quot;\n&quot; +
+<i>142</i>&nbsp;            &quot;&lt;hr /&gt;&lt;/div&gt;\n&quot; +
+<i>143</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>144</i>&nbsp;            &quot;\n&quot; +
+<i>145</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>146</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot;+
+<i>147</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;600\&quot;height=\&quot;400\&quot;src=\&quot;http://images.thaiza.com/109/109_200806161538321..jpg\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>148</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>149</i>&nbsp;            &quot;\n&quot; +
+<i>150</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>151</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>152</i>&nbsp;            &quot;\n&quot; +
+<i>153</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;7) สนุกสุดคุ้ม วันเดียว เที่ยวสี่เกาะ&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>154</i>&nbsp;            &quot;\n&quot; +
+<i>155</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>156</i>&nbsp;            &quot;\n&quot; +
+<i>157</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>158</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>159</i>&nbsp;            &quot;\n&quot; +
+<i>160</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>161</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;สี่เกาะชื่อดังในทะเลตรัง เกาะมุก ที่มีถ้ำมรกต เป็นหนึ่งใน Unseen Thailand เกาะกระดาน หาดทรายขาวน้ำใสราวกับกระจก เป็นเกาะแห่งความรัก  เกาะเชือกและเกาะม้า  เป็นจุดดำน้ำที่สวยสุด โลกใต้ทะเล รอให้คุณไปชื่นชม&lt;/span&gt;\n&quot; +
+<i>162</i>&nbsp;            &quot;\n&quot; +
+<i>163</i>&nbsp;            &quot;&lt;hr /&gt;&lt;/div&gt;\n&quot; +
+<i>164</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>165</i>&nbsp;            &quot;\n&quot; +
+<i>166</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>167</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot;+
+<i>168</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;600\&quot;height=\&quot;400\&quot;src=\&quot;http://board.trekkingthai.com/board/upload/photo/2010-06/2558eaf09281f17b818d1d033b67bab4.jpg\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>169</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>170</i>&nbsp;            &quot;\n&quot; +
+<i>171</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>172</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>173</i>&nbsp;            &quot;\n&quot; +
+<i>174</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;8) ลอดท้องช่องมังกร ที่ถ้ำเลเขากอบ&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>175</i>&nbsp;            &quot;\n&quot; +
+<i>176</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>177</i>&nbsp;            &quot;\n&quot; +
+<i>178</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>179</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>180</i>&nbsp;            &quot;\n&quot; +
+<i>181</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>182</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;ถ้ำเลเขากอบ เป็นถ้ำน้ำขนาดใหญ่ เต็มไปด้วยหินงอกหินย้อยที่สวยงามตระการตาซึ่งต้องนั่งเรือท้องแบนเข้ามาชม ไฮไลต์อยู่ที่ &amp;ldquo;ท้องมังกรถ้ำ&amp;rdquo; เป็นช่วงเพดานถ้ำที่ต่ำมาก จนทุกคนต้องนอนราบในเรือ นักท่องเที่ยวชาวจีนและไต้หวัน เชื่อว่าการลอดท้องมังกรจะช่วยเสริมดวง มีโชค&lt;/span&gt;\n&quot; +
+<i>183</i>&nbsp;            &quot;\n&quot; +
+<i>184</i>&nbsp;            &quot;&lt;hr/&gt;&lt;/div&gt;\n&quot; +
+<i>185</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>186</i>&nbsp;            &quot;\n&quot; +
+<i>187</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>188</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot;+
+<i>189</i>&nbsp;            &quot;&lt;div&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;img alt=\&quot;\&quot; border=\&quot;0\&quot; wieght=\&quot;600\&quot;height=\&quot;400\&quot;src=\&quot;http://www.mots.go.th/trang/images/article/news104/n20140210141516_568.jpg\&quot; title=\&quot;\&quot; vspace=\&quot;5\&quot; /&gt;&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>190</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>191</i>&nbsp;            &quot;\n&quot; +
+<i>192</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>193</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>194</i>&nbsp;            &quot;\n&quot; +
+<i>195</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;strong&gt;&lt;span style=\&quot;color: #000000;\&quot;&gt;&lt;span class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;9) เดินสูงเทียมยอดไม้ &lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;\n&quot; +
+<i>196</i>&nbsp;            &quot;\n&quot; +
+<i>197</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>198</i>&nbsp;            &quot;\n&quot; +
+<i>199</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&quot; +
+<i>200</i>&nbsp;            &quot;\n&quot; +
+<i>201</i>&nbsp;            &quot;&lt;div class=\&quot;h3\&quot;&gt;&lt;span style=\&quot;line-height: 1.6em;\&quot;&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;สวนพฤกษศาสตร์ภาคใต้ (ทุ่งค่าย)&lt;/span&gt;&lt;/div&gt;\n&quot; +
+<i>202</i>&nbsp;            &quot;&lt;/div&gt;\n&quot; +
+<i>203</i>&nbsp;            &quot;\n&quot; +
+<i>204</i>&nbsp;            &quot;&lt;div&gt;\n&quot; +
+<i>205</i>&nbsp;            &quot;&lt;p&gt;&lt;span style=\&quot;font-size: 22px;\&quot;&gt;เป็นหนึ่งเดียวในประเทศไทยที่มีสะพานให้ชมต้นไม้และสิ่งมีชีวิตที่อาศัยอยู่บนต้นไม้กันแบบใกล้ชิด&amp;nbsp; เรียกสะพานนี้ว่า &amp;ldquo;สะพานศึกษาเรือนยอดไม้&amp;rdquo;&amp;nbsp; อยู่ที่ป่าสงวนแห่งชาติป่าทุ่งค่าย อำเภอย่านตาขาว&amp;nbsp; มีพื้นที่ประมาณ 2,600 ไร่&lt;/p&gt;\n&quot; +
+<i>206</i>&nbsp;            &quot;\n&quot; +
+<i>207</i>&nbsp;            &quot;&lt;hr /&gt;\n&quot; +
+<i>208</i>&nbsp;            &quot;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&quot; +
+<i>209</i>&nbsp;            &quot;&lt;/div&gt;\n&quot;;
+<i>210</i>&nbsp;
+<i>211</i>&nbsp;    public static Intent createIntent(Context context) {
+<b class="nc"><i>212</i>&nbsp;        return new Intent(context, TongHamPhlatActivity.class);</b>
+<i>213</i>&nbsp;    }
+<i>214</i>&nbsp;//------------------------------------------------------------------------------------------------------
+<i>215</i>&nbsp;    @SuppressLint(&quot;SetJavaScriptEnabled&quot;)
+<i>216</i>&nbsp;    @Override
+<i>217</i>&nbsp;    protected void onCreate(Bundle savedInstanceState) {
+<b class="nc"><i>218</i>&nbsp;        super.onCreate(savedInstanceState);</b>
+<b class="nc"><i>219</i>&nbsp;        setContentView(R.layout.tonghamphlat_activity);</b>
+<i>220</i>&nbsp;
+<b class="nc"><i>221</i>&nbsp;        mWebView = (WebView) findViewById(R.id.webViewFace);</b>
+<b class="nc"><i>222</i>&nbsp;        mWebView.setWebViewClient(new WebViewClient() {</b>
+<i>223</i>&nbsp;
+<i>224</i>&nbsp;            @Override
+<i>225</i>&nbsp;            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+<i>226</i>&nbsp;                // TODO Auto-generated method stub
+<b class="nc"><i>227</i>&nbsp;                view.loadUrl(url);</b>
+<b class="nc"><i>228</i>&nbsp;                return true;</b>
+<i>229</i>&nbsp;            }
+<i>230</i>&nbsp;        });
+<b class="nc"><i>231</i>&nbsp;        String head1 = &quot;&lt;head&gt;&lt;style&gt;@font-face {font-family: &#39;arial&#39;;src: url(&#39;file:///android_asset/fonts/angsa.ttf&#39;);}body {font-family: &#39;verdana&#39;;}&lt;/style&gt;&lt;/head&gt;&quot;;</b>
+<b class="nc"><i>232</i>&nbsp;        String text = &quot;&lt;html&gt;&quot; + head1</b>
+<i>233</i>&nbsp;                + &quot;&lt;body style=\&quot;font-family: arial\&quot;&gt;&quot; + htmlstr1
+<i>234</i>&nbsp;                + &quot;&lt;/body&gt;&lt;/html&gt;&quot;;
+<i>235</i>&nbsp;
+<b class="nc"><i>236</i>&nbsp;        mWebView.loadDataWithBaseURL(&quot;&quot;,text,&quot;text18/html&quot;, &quot;utf-8&quot;, &quot;&quot;);</b>
+<b class="nc"><i>237</i>&nbsp;        mWebView.getSettings().setJavaScriptEnabled(true);</b>
+<b class="nc"><i>238</i>&nbsp;        mWebView.setWebViewClient(new WebViewClient());</b>
+<b class="nc"><i>239</i>&nbsp;        WebSettings webSettings = mWebView.getSettings();</b>
+<b class="nc"><i>240</i>&nbsp;        webSettings.setJavaScriptEnabled(true);</b>
+<b class="nc"><i>241</i>&nbsp;        webSettings.setDomStorageEnabled(true);</b>
+<b class="nc"><i>242</i>&nbsp;        mWebView.getSettings().setJavaScriptEnabled(true);</b>
+<b class="nc"><i>243</i>&nbsp;        mWebView.getSettings().setDomStorageEnabled(true);</b>
+<b class="nc"><i>244</i>&nbsp;        mWebView.loadDataWithBaseURL(&quot;&quot;, text, &quot;text1/html&quot;, &quot;utf-8&quot;, &quot;&quot;);</b>
+<i>245</i>&nbsp;         }
+<i>246</i>&nbsp;        @Override
+<i>247</i>&nbsp;        public void onStart()
+<i>248</i>&nbsp;        {
+<b class="nc"><i>249</i>&nbsp;            super.onStart();</b>
+<i>250</i>&nbsp;        }
+<i>251</i>&nbsp;        @Override
+<i>252</i>&nbsp;        public void onResume()
+<i>253</i>&nbsp;        {
+<b class="nc"><i>254</i>&nbsp;            super.onResume();</b>
+<i>255</i>&nbsp;        }
+<i>256</i>&nbsp;    }
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2016-03-21 10:19</div>
+</div>
+</body>
+</html>

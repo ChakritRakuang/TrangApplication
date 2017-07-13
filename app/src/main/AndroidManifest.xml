@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?><!-- suppress ALL -->
+<!--suppress ALL -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="chakritrakhuang.trangapp.se.science.bu.bomb">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23"/>
+
+    <uses-permission android:name="chakritrakhuang.trangapp.se.science.bu.bomb.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <compatible-screens>
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="xlarge" />
+    </compatible-screens>
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".InformationTrangProvinceActivity"
+            android:label="@string/InformationTrangActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TongHamPhlatActivity"
+            android:label="@string/includeinformation_trang_activity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AttractionsTabsTrangActivity"
+            android:label="@string/AttractionsTabsTrangActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SouvenirsTabsTrangActivity"
+            android:label="@string/SouvenirsTabsTrangActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction1"
+            android:label="@string/BanNaiHuaChuangActivity"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction2"
+            android:label="@string/Attrac2"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction3"
+            android:label="@string/Attrac3"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction4"
+            android:label="@string/Attrac4"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction5"
+            android:label="@string/Attrac5"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction6"
+            android:label="@string/Attrac6"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction7"
+            android:label="@string/Attrac7"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction8"
+            android:label="@string/Attrac8"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction9"
+            android:label="@string/Attrac9"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atttaction10"
+            android:label="@string/Attrac10"
+            android:parentActivityName=".AttractionsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trangmuuuyang"
+            android:label="@string/phathonamuensiActivity"
+            android:parentActivityName=".SouvenirsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".khunglong"
+            android:label="@string/sou2"
+            android:parentActivityName=".SouvenirsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cakerose"
+            android:label="@string/sou3"
+            android:parentActivityName=".SouvenirsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".caketragrueelrabb"
+            android:label="@string/sou4"
+            android:parentActivityName=".SouvenirsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phathonamuensi"
+            android:label="@string/sou5"
+            android:parentActivityName=".SouvenirsTabsTrangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FragmentCredit"
+            android:screenOrientation="portrait" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps_Activity"
+            android:label="@string/title_activity_maps_">
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+                </application>
+        </manifest>
+
+
